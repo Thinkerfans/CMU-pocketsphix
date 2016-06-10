@@ -1,0 +1,73 @@
+Language model created by QuickLM on Thu May 19 04:53:13 EDT 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=23
+ngram 3=14
+
+\1-grams:
+-0.8016 </s> -0.3010
+-0.8016 <s> -0.2126
+-1.8808 BACKWARD -0.2264
+-1.8808 FORWARD -0.2264
+-1.5798 LEFT -0.2264
+-1.5798 RIGHT -0.2264
+-1.5798 SPIN -0.2775
+-1.8808 右转 -0.2264
+-1.8808 向前 -0.2264
+-1.8808 向右 -0.2264
+-1.8808 向后 -0.2264
+-1.8808 向左 -0.2264
+-1.8808 左转 -0.2264
+
+\2-grams:
+-1.3802 <s> BACKWARD 0.0000
+-1.3802 <s> FORWARD 0.0000
+-1.3802 <s> LEFT 0.0000
+-1.3802 <s> RIGHT 0.0000
+-1.0792 <s> SPIN 0.0000
+-1.3802 <s> 右转 0.0000
+-1.3802 <s> 向前 0.0000
+-1.3802 <s> 向右 0.0000
+-1.3802 <s> 向后 0.0000
+-1.3802 <s> 向左 0.0000
+-1.3802 <s> 左转 0.0000
+-0.3010 BACKWARD </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.3010 LEFT </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.6021 SPIN LEFT 0.0000
+-0.6021 SPIN RIGHT 0.0000
+-0.3010 右转 </s> -0.3010
+-0.3010 向前 </s> -0.3010
+-0.3010 向右 </s> -0.3010
+-0.3010 向后 </s> -0.3010
+-0.3010 向左 </s> -0.3010
+-0.3010 左转 </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BACKWARD </s>
+-0.3010 <s> FORWARD </s>
+-0.3010 <s> LEFT </s>
+-0.3010 <s> RIGHT </s>
+-0.6021 <s> SPIN LEFT
+-0.6021 <s> SPIN RIGHT
+-0.3010 <s> 右转 </s>
+-0.3010 <s> 向前 </s>
+-0.3010 <s> 向右 </s>
+-0.3010 <s> 向后 </s>
+-0.3010 <s> 向左 </s>
+-0.3010 <s> 左转 </s>
+-0.3010 SPIN LEFT </s>
+-0.3010 SPIN RIGHT </s>
+
+\end\
