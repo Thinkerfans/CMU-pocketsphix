@@ -1,0 +1,10 @@
+#JSGF V1.0;
+
+grammar commands;
+
+<command> = 向前 	|
+          向后       |
+          向左       |
+          向右       ;  
+                        
+public <commands> = <command>+;
